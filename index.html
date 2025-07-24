@@ -179,3 +179,184 @@
     <script src="./script.js"></script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manjiri Gole</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Nav Div-->
+      <nav class="nav-div">
+        <div class="logo-div">
+          <p>Manjiri Gole</p>
+        </div>
+        <div class="icon-grp">
+          <a
+            href="https://github.com/manjirigole"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.frontendmentor.io/profile/manjirigole"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./assets/frontendmentor-white-com.svg"
+              class="frontendmentor-icon"
+            />
+          </a>
+          <a
+            href="https:////www.linkedin.com/in/manjiri-gole-00072b2ba"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&to=manjiriagole70@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </nav>
+
+      <!--hero section-->
+      <div class="hero-div"></div>
+      <!--phrase div-->
+      <div class="phrase-div">
+        <a href="#projects">keep up with all my side quests</a>
+      </div>
+      <!--tech stack-->
+      <div class="tech-container">
+        <div class="about-div">
+          <h2>About Me</h2>
+          <p>
+            Nice to meet you! I'm Manjiri Gole.<br />
+            Based in Mumbai, India, I'm a frontend developer <br />
+            passionate about building responsive applications <br />
+            that users love.
+          </p>
+        </div>
+        <div class="tech-grid"></div>
+      </div>
+      <!--template for tech stack-->
+
+      <template class="tech-template">
+        <div class="tech-card">
+          <p class="tech-name"></p>
+          <p class="experience"></p>
+        </div>
+      </template>
+
+      <!--projects div-->
+      <div class="projects-div">
+        <h1 id="projects">Projects</h1>
+
+        <div class="projects-grid"></div>
+      </div>
+    </div>
+    <!--projects-template-->
+    <template class="project-template">
+      <a class="project-link" target="_blank" rel="noopener noreferrer">
+        <div class="project-card">
+          <div class="project-img-div"></div>
+          <div class="project-title-div">
+            <p class="project-title"></p>
+          </div>
+        </div>
+      </a>
+    </template>
+
+    <!--contact me-->
+    <div class="contact-div">
+      <div class="contact-info">
+        <h1>Contact</h1>
+        <p>
+          I would love to hear about your project and how I <br />could help.
+          Please fill in the form, and I'll get back <br />
+          to you as soon as possible.
+        </p>
+      </div>
+      <form class="contact-form">
+        <input type="text" class="name" id="name" placeholder="Name" />
+        <input type="email" class="email" id="email" placeholder="Email" />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Type your message here..."
+          rows="5"
+          cols="40"
+          required
+        ></textarea>
+      </form>
+    </div>
+    <!--Footer Div-->
+    <footer class="nav-div">
+      <div class="logo-div">
+        <p>Manjiri Gole</p>
+      </div>
+      <div class="icon-grp">
+        <a
+          href="https://github.com/manjirigole"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.frontendmentor.io/profile/manjirigole"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="./assets/frontendmentor-white-com.svg"
+            class="frontendmentor-icon"
+          />
+        </a>
+        <a
+          href="https:////www.linkedin.com/in/manjiri-gole-00072b2ba"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&to=manjiriagole70@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
