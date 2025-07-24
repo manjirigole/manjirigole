@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [
   {
     "tech": "HTML",
@@ -21,27 +20,3 @@
     "experience": "1 Year of Experience"
   }
 ]
-=======
-[
-  {
-    "tech": "HTML",
-    "experience": "4 Years of Experience"
-  },
-  {
-    "tech": "CSS",
-    "experience": "4 Years of Experience"
-  },
-  {
-    "tech": "Javascript",
-    "experience": "1 Year of Experience"
-  },
-  {
-    "tech": "Responsive Design",
-    "experience": "4 Years of Experience"
-  },
-  {
-    "tech": "React",
-    "experience": "1 Year of Experience"
-  }
-]
->>>>>>> 1f1126902e890d5ddd467707f9af3e0e55654474
