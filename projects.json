@@ -1,0 +1,23 @@
+[
+  {
+    "title": "EmPowHer: A personalized application for women's wellness",
+    "img": "./assets/Empowher-card.png"
+  },
+  {
+    "title": "Smart Plate: A friendly website for an online recipe box ordering service",
+    "img": "./assets/smartplate-card.png"
+  },
+  {
+    "title": "Greyscale PhotoBooth: An online photo booth generator",
+    "img": "./assets/greyscale-card.png",
+    "livesite": "https://manjirigole.github.io/greyscale-photobooth/"
+  },
+  {
+    "title": "Aloha Homes: Website allowing local artisans to sell their products online",
+    "img": "./assets/aloha-card.png"
+  },
+  {
+    "title": "PassLock: A secured password manager with MFA and Encryption",
+    "img": "./assets/passlock-card.png"
+  }
+]
