@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: hsl(54, 100%, 96%);
+  font-family: "Young Serif", sans-serif;
+}
+.nav-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  font-size: 25px;
+  align-items: center;
+  background-color: #845151;
+  color: hsl(54, 100%, 96%);
+}
+.icon-grp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+.icon-grp i {
+  color: #fffdeb;
+}
+.frontendmentor-icon {
+  width: 25px;
+}
+.hero-div {
+  background: url("./assets/Portfolio\ Frame.png");
+  background-size: cover;
+  background-position: center;
+  max-height: 600px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phrase-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #845151;
+  color: hsl(54, 100%, 96%);
+  font-size: 30px;
+  padding: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.phrase-div a,
+.phrase-div a:visited,
+.phrase-div a:hover,
+.phrase-div a:active,
+.phrase-div a:focus {
+  color: hsl(54, 100%, 96%) !important;
+  text-decoration: underline;
+}
+.phrase-div a:hover {
+  transform: scale(1.03);
+}
+.phrase-div {
+  border-bottom: 2px solid hsl(54, 100%, 96%);
+}
+
+.tech-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1rem;
+}
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr)); /* responsive */
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+.tech-template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tech-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.tech-name {
+  font-size: 25px;
+  color: #742424;
+}
+.experience {
+  color: #504646;
+}
+.about-div {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: 20px;
+  padding: 1rem;
+  border-right: 2px solid #742424;
+  gap: 1rem;
+}
+.about-div p {
+  color: #1e1e1e;
+}
+.about-div h2 {
+  color: #742424;
+}
+#projects {
+  color: #fffdeb;
+  padding-left: 2rem;
+}
+.projects-div {
+  padding: 2rem;
+  background-color: #845151;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #845151;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 1rem;
+  background-color: #fffdeb;
+  cursor: pointer;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+.project-img-div {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.project-title-div {
+  padding: 1rem;
+  text-align: center;
+}
+
+.project-title {
+  font-size: 20px;
+  color: #742424;
+}
+.contact-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4rem;
+}
+.contact-info {
+  color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.contact-info p {
+  font-size: 20px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+[type="text"],
+[type="email"],
+#message {
+  width: 300px;
+  height: 50px;
+  border: 1px solid #845151;
+  border-radius: 0.2rem;
+  font-family: "Young Serif", sans-serif;
+  padding-left: 1rem;
+  color: #742424;
+  background-color: #fffdeb;
+}
+[type="text"]::placeholder,
+[type="email"]::placeholder,
+#message::placeholder {
+  padding-left: 1rem;
+  font-family: "Young Serif", sans-serif;
+  color: #845151;
+}
+
+#message::placeholder {
+  padding-top: 0.5rem;
+}
+.footer-div {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  font-size: 25px;
+  align-items: center;
+  background-color: #845151;
+  color: hsl(54, 100%, 96%);
+}
+.project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card {
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.03);
+}
