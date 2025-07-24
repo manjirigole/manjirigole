@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This site showcases my web development
 
 ## 🌐 Live Demo
 
-👉 [View Live Site][(https://manjirigole.github.io/)](https://manjirigole.github.io/manjirigole/)
+👉 https://manjirigole.github.io/manjirigole/
 
 ## 📝 About
 
